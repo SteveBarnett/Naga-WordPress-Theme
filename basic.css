@@ -1,0 +1,420 @@
+/*
+Theme Name: Naga
+Author: Steve Barnett
+Description: Minimalist Naga Theme
+Version: 0.71
+Template: toolbox-hardboilerplated
+*/
+
+@import url(../toolbox-hardboilerplated/style.css);
+
+::-moz-selection{ background: #000; color:#fff; text-shadow: none; }
+::selection { background:#000; color:#fff; text-shadow: none; } 
+
+/* 1.ROOT */
+
+html {
+border-top: solid 6px #6B0000;
+}
+
+body {
+/*font-family: "lemonde-courrier-1", "lemonde-courrier-2", serif;*/
+font-family: "pragmatica-web-1","pragmatica-web-2", sans-serif;
+margin: 0 1.5em;
+}
+
+/* 2.HEADINGS */
+
+h1, h2, h3, h4 {
+font-size: 2.25em;
+line-height: 1.3333;
+margin: 0.5em 0 0;
+/*font-family: "news-gothic-std-1", "news-gothic-std-2", sans-serif;*/
+font-family: "pragmatica-web-condensed-1","pragmatica-web-condensed-2", sans-serif;
+text-transform: uppercase;
+}
+
+section > h1 {
+margin-top: 0;
+}
+
+#blog > h3,
+#work > h3,
+#blog > h2,
+#work > h2,
+#blog > h1,
+#work > h1 {
+margin-top: 0;
+}
+
+#blog h1,
+#blog h2,
+#blog h2 a,
+#blog h3,
+#blog h3 a,
+.single article h1,
+.single article h1 a,
+.single article h3,
+.single article h3 a {
+color: #003C3C;
+}
+
+#work h1,
+#work h2,
+#work h2 a,
+#work h3,
+#work h3 a,
+.parent-pageid-8 article h1,
+.parent-pageid-8 article h1 a
+.parent-pageid-8 article h3,
+.parent-pageid-8 article h3 a,
+.parent-pageid-8 nav a {
+color: #3E5D00;
+}
+
+.single div[role="main"] nav h1 {
+display: none;
+}
+
+nav[role="navigation"] h6 {
+visibility: hidden;
+height: 0;
+}
+
+/* 3.TYPOGRAPHY */
+
+.parent-pageid-8 nav a {
+/*font-family: news-gothic-std-1, news-gothic-std-2, sans-serif;*/
+font-family: "pragmatica-web-condensed-1","pragmatica-web-condensed-2", sans-serif;
+}
+
+/* 4.LINKS */
+
+a:link {
+color: #9A0000;
+}
+
+a:visited {
+color: #6A0000;
+}
+
+a:hover, a:focus, a:active {
+color: #CA0000;
+text-decoration: none;
+}
+
+a:focus, a:active {
+position: relative;
+top: 2px;
+}
+
+/* 5.FIGURES & IMAGES */
+
+
+
+/* 6.TABLES */
+
+
+
+/* 7.FORMS */
+
+
+
+/* 8.BANNER */
+
+header[role="banner"] h1,
+header[role="banner"] h2 {
+/*font-family: "lemonde-courrier-1","lemonde-courrier-2",serif;*/
+font-family: "pragmatica-web-1","pragmatica-web-2", sans-serif;
+font-size: 4em;
+line-height: 1.125;
+margin: 0;
+text-transform: uppercase;
+padding-left: 0.65em;
+background: #fff url(logo.gif) 0 0.18em no-repeat;
+}
+
+header[role="banner"] a {
+text-decoration: none;
+}
+
+header[role="banner"] a:link,
+header[role="banner"] a:visited {
+color: #000;
+}
+
+header[role="banner"] a:hover,
+header[role="banner"] a:focus,
+header[role="banner"] a:active {
+color: #CA0000;
+text-decoration: none;
+}
+
+/*header[role="banner"] h1 a:link,*/
+/*header[role="banner"] h1 a:visited {*/
+/*color: #9A0000;*/
+/*text-decoration: none;*/
+/*}*/
+
+/* 9.NAVIGATION */
+
+nav[role="navigation"] {
+/*font-family: "news-gothic-std-1", "news-gothic-std-2", sans-serif;*/
+/*font-family: "pragmatica-web-condensed-1","pragmatica-web-condensed-2", sans-serif;*/
+padding: 0.6em 0;
+border-bottom: solid 1px #F2EAEA;
+}
+
+nav[role="navigation"] ul {
+padding-left: 0;
+}
+
+nav[role="navigation"] li {
+line-height: 1.3125em;
+display: inline;
+margin-right: 0.5em;
+}
+
+nav[role="navigation"] a:link,
+nav[role="navigation"] a:visited {
+text-decoration: none;
+font-weight: bold;
+}
+
+nav[role="navigation"] li:nth-of-type(2) a:link,
+nav[role="navigation"] li:nth-of-type(2) a:visited {
+color: #3E5D00;
+}
+
+nav[role="navigation"] li:nth-of-type(2) a:hover,
+nav[role="navigation"] li:nth-of-type(2) a:focus,
+nav[role="navigation"] li:nth-of-type(2) a:active {
+color: #609000;
+}
+
+nav[role="navigation"] li:nth-of-type(3) a:link,
+nav[role="navigation"] li:nth-of-type(3) a:visited {
+color: #003C3C;
+}
+
+nav[role="navigation"] li:nth-of-type(3) a:hover,
+nav[role="navigation"] li:nth-of-type(3) a:focus,
+nav[role="navigation"] li:nth-of-type(3) a:active {
+color: #005C5C;
+}
+
+/* 10.CONTENT */
+
+p, ol, ul, dl, address {
+margin-bottom: 1em;
+}
+
+article header div {
+font-size: 0.75em;
+margin-top: 0.25em;
+text-transform: uppercase;
+}
+
+article > div {
+margin-top: 0.5em;
+}
+
+article .thumbnail a {
+display: block;
+margin-bottom: 1em;
+}
+
+article .thumbnail a img {
+border: solid 1px #D5D5D5;
+margin-bottom: 1em;
+}
+
+article .thumbnail a img:hover {
+border: solid 1px #aaa;
+}
+
+#blog,
+#work {
+margin-top: 0.5em;
+}
+
+article footer {
+margin-bottom: 1em;
+}
+
+#comments h2 {
+font-size: 1.5em;
+}
+
+#comments article {
+width: 100%;
+}
+
+.ie8 #comments li,
+.lt-ie9  #comments li {
+display: block;
+/*float: left;*/
+}
+
+.hentry .source-org {
+display: none;
+}
+
+blockquote {
+margin-left: -1em;
+padding-left: 1em;
+}
+
+.entry-content .vcard {
+font-family: "news-gothic-std-1","news-gothic-std-2",sans-serif;
+
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.entry-content .fn,
+.entry-content .country-name {
+display: none;
+}
+
+.entry-content .tel:nth-of-type(1) {
+display: block;
+margin-top: 1em;
+}
+
+div.wpcf7-response-output,
+div.wpcf7-mail-sent-ok,
+div.wpcf7-mail-sent-ng,
+div.wpcf7-spam-blocked,
+div.wpcf7-validation-errors {
+border: none;
+}
+
+
+/* 11.MAIN */
+
+div[role="main"] > section > h1 a,
+div[role="main"] > section > h2 a {
+text-decoration: none;
+}
+
+.home div[role="main"] article h1,
+#blog article h1,
+#work article h1,
+.home div[role="main"] article h3,
+#blog article h3,
+#work article h3 {
+font-size: 1.3125em;
+line-height: 1.1429;
+text-transform: none;
+}
+
+div[role="main"] nav {
+margin: 0.5em 0;
+padding: 0.5em 0;
+clear: both;
+}
+
+/* 12.COMPLIMENTARY */
+
+div[role="complementary"] {
+margin-top: 0.5em;
+padding-top: 0.5em;
+}
+
+div[role="complementary"] h4 {
+font-size: 1.5em;
+line-height: 1.25;
+}
+
+div[role="complementary"] ul {
+list-style-type: none;
+}
+
+#searchform  {
+margin-bottom: 1em;
+}
+
+#searchform input {
+width: auto;
+margin-top: 0.5em;
+}
+
+#searchform label,
+#searchform input[type="submit"] {
+display: block;
+}
+
+
+/* 13.CONTENTINFO */
+
+footer[role="contentinfo"] {
+background: #6B0000;
+color: #fff;
+padding: 1em;
+margin-top: 1em;
+}
+
+footer[role="contentinfo"] a:link,
+footer[role="contentinfo"] a:visited {
+color: #fff;
+}
+
+footer[role="contentinfo"] a:hover,
+footer[role="contentinfo"] a:focus,
+footer[role="contentinfo"] a:active {
+text-decoration: none;
+}
+
+footer[role="contentinfo"] .adr {
+margin: 0.5em 0;
+}
+
+footer[role="contentinfo"] .fn,
+footer[role="contentinfo"] .org,
+footer[role="contentinfo"] .region,
+footer[role="contentinfo"] .country-name {
+display: none;
+}
+
+footer[role="contentinfo"] .tel,
+footer[role="contentinfo"] .locality,
+footer[role="contentinfo"] .region {
+display: block;
+}
+
+footer[role="contentinfo"] .tel {
+margin-top: 0.5em;
+}
+
+/* 14.GLOBAL OBJECTS */
+
+
+
+/* 15.VENDOR-SPECIFIC */
+
+
+
+/* 16.TEMPLATE SPECIFICS */
+
+header[role="banner"],
+div[role="main"] section > h1,
+#blog > h1,
+#work > h1,
+div[role="main"] section > h2,
+#blog > h2,
+#work > h2,
+#comments {
+border-bottom: solid 1px #D5D5D5;
+}
+
+nav[role="navigation"],
+div[role="main"] article ,
+div[role="main"] nav {
+border-bottom: solid 1px #E5E5E5;
+}
+
+
+
+/* 17.MODERNIZR */
+

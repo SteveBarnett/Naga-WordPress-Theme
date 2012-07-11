@@ -1,0 +1,177 @@
+/* 1.ROOT */
+
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS */
+/* 8.BANNER */
+
+nav[role="navigation"] #menu-item-264 {
+display: none;
+}
+
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+/* 11.MAIN */
+
+div[role="main"],
+section[role="main"] {
+float: left;
+width: 70%;
+}
+
+#portfolio-nav h6 {
+display: none;
+}
+
+#blog .entry-content > p:first-child,
+.single .entry-content > p:first-child {
+font-size: 1.1em;
+}
+
+/* 12.COMPLIMENTARY */
+
+div[role="complementary"] {
+float: right;
+width: 25%;
+
+margin-top: 3.5em;
+padding-top: 0;
+border-top: 1px solid #D5D5D5;
+}
+
+.ie6 div[role="complementary"],
+.lt-ie7 div[role="complementary"] {
+clear: both;
+}
+
+#comments ul,
+#comments ol {
+list-style: none;
+}
+
+
+/* 13.CONTENTINFO */
+
+footer[role="contentinfo"] {
+clear: both;
+}
+
+footer[role="contentinfo"] .adr span {
+display: inline;
+margin-right: 0.5em;
+}
+
+footer[role="contentinfo"] .tel {
+display: inline;
+margin-left: 0.5em;
+}
+
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
+
+
+
+@media only screen and (min-width: 62em) { /* 992px */
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+
+/* home */
+
+section#work {
+float: left;
+width: 48%;
+}
+
+section#blog {
+float: right;
+width: 48%;
+}
+
+/* other */
+
+.page article {
+width: 48%;
+margin-bottom: 1em;
+}
+
+.page article:nth-of-type(2n+1) {
+float: left;
+clear: left;
+}
+
+.page article:nth-of-type(2n) {
+float: right;
+clear: right;
+}
+
+/* single */
+
+.single article,
+.single div[role="main"] nav,
+#comments {
+width: 48%;
+margin-bottom: 1em;
+}
+
+.single article,
+.single div[role="main"] nav {
+float: left;
+clear: left;
+}
+
+#comments {
+float: right;
+clear: right;
+}
+
+#comments-title em {
+display: block;
+}
+
+#comments h2 {
+margin-top: 0.25em;
+}
+
+#respond {
+clear: left;
+}
+
+/* single portfolio */
+
+#portfolio-nav {
+width: 48%;
+float: right;
+clear: right;
+margin-top: 3.5em;
+border-bottom: none;
+border-top: solid 1px #E5E5E5;
+}
+
+#portfolio-nav div {
+margin: 0.2em 0 0.8em 0;
+}
+
+
+/* 11.MAIN */
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
+
+}/*/mediaquery*/

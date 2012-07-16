@@ -70,6 +70,8 @@
 */ ?>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="author" href="https://plus.google.com/u/0/117361059687801331615"/>
+
 
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/respond.min.js"></script>
 

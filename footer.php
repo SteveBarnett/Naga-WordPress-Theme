@@ -28,7 +28,7 @@
 		</div>
 
 		<p>Business card: <a href="http://naga.co.za/naga.vcf" title="Business Card in vcf format">vcf</a>; <a href="http://naga.co.za/naga-outlook.csv" title="Business Card in csv format, Outlook compatible">csv for Outlook</a>; <a href="http://naga.co.za/naga-google.csv" title="Business Card in csv format, Gmail compatible">csv for Google</a>.
-			<a href="http://www.linkedin.com/profile/view?id=173785377" title="View my Linked In profile">Linked In profile</a></p>
+			<a href="http://www.linkedin.com/profile/view?id=173785377" title="View my Linked In profile" rel="me">Linked In profile</a></p>
 
 <?php /*
 		<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress</a>

@@ -14,7 +14,7 @@
 			<time class="entry-date updated" datetime="<?php the_date('c'); ?>" pubdate><?php echo get_the_date(); ?></time>
 
 			<span class="byline author vcard">
-			<a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" title="View all posts by <?php the_author(); ?>" class="fn"><?php the_author(); ?></a>
+			By <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" title="View all posts by <?php the_author(); ?>" class="fn" rel="author"><?php the_author(); ?></a>
 			</span>
 
 			<span class="source-org vcard">
@@ -23,7 +23,7 @@
 
 
 		</div>
-		<div><?php the_category( ', ' ); ?></div>
+		<div>Filed under: <?php the_category( ', ' ); ?></div>
 		<?php endif; ?>
 	</header>
 
@@ -37,7 +37,14 @@
 		<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'toolbox' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
 
-	<footer><?php comments_popup_link( __( 'Leave a comment', 'toolbox' ), __( '1 Comment', 'toolbox' ), __( '% Comments', 'toolbox' ) ); ?></footer>
+	<footer>
+	<?php comments_popup_link( __( 'Leave a comment', 'toolbox' ), __( '1 Comment', 'toolbox' ), __( '% Comments', 'toolbox' ) ); ?><br />
+	Share this post on:
+<a href="https://twitter.com/intent/tweet?url=<?php echo urlencode(get_permalink()); ?>" title="Share this post on Twitter">Twitter</a>,
+<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_permalink()); ?>
+" title="Share this post on Facebook">Facebook</a>,
+or <a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<?php echo urlencode(get_permalink()); ?>" title="Share this post on Google+">Google+</a>.
+	</footer>
 
 	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->

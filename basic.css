@@ -21,6 +21,7 @@ body {
 /*font-family: "lemonde-courrier-1", "lemonde-courrier-2", serif;*/
 font-family: "pragmatica-web-1","pragmatica-web-2", sans-serif;
 margin: 0 1.5em;
+max-width: 113em; /* 79em for [role="main"], extrapolated up */
 }
 
 /* 2.HEADINGS */
@@ -83,10 +84,10 @@ height: 0;
 
 /* 3.TYPOGRAPHY */
 
-.parent-pageid-8 nav a {
+/*.parent-pageid-8 nav a {*/
 /*font-family: news-gothic-std-1, news-gothic-std-2, sans-serif;*/
-font-family: "pragmatica-web-condensed-1","pragmatica-web-condensed-2", sans-serif;
-}
+/*font-family: "pragmatica-web-condensed-1","pragmatica-web-condensed-2", sans-serif;*/
+/*}*/
 
 /* 4.LINKS */
 
